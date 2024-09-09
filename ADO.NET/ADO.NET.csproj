@@ -8,11 +8,25 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="db\Setup.sql" />
+    <None Remove="Resources\Designers.json" />
+    <None Remove="Resources\Games.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="db\Setup.sql" />
+    <Content Include="Resources\Games.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Designers.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>

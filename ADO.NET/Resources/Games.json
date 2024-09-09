@@ -1,0 +1,122 @@
+[
+  {
+    "GameName": "Agricola",
+    "Genre": "Resource Management",
+    "Price": 50,
+    "DesignerId": 1
+  },
+  {
+    "GameName": "Caverna",
+    "Genre": "Worker Placement",
+    "Price": 60,
+    "DesignerId": 1
+  },
+  {
+    "GameName": "Patchwork",
+    "Genre": "Abstract Strategy",
+    "Price": 25,
+    "DesignerId": 1
+  },
+  {
+    "GameName": "The Quest for El Dorado",
+    "Genre": "Deck Building",
+    "Price": 40,
+    "DesignerId": 2
+  },
+  {
+    "GameName": "Tigris & Euphrates",
+    "Genre": "Tile Placement",
+    "Price": 45,
+    "DesignerId": 2
+  },
+  {
+    "GameName": "Lost Cities",
+    "Genre": "Card Game",
+    "Price": 20,
+    "DesignerId": 2
+  },
+  {
+    "GameName": "Wingspan",
+    "Genre": "Engine Building",
+    "Price": 55,
+    "DesignerId": 3
+  },
+  {
+    "GameName": "Mariposas",
+    "Genre": "Set Collection",
+    "Price": 35,
+    "DesignerId": 3
+  },
+  {
+    "GameName": "Scythe",
+    "Genre": "Area Control",
+    "Price": 75,
+    "DesignerId": 4
+  },
+  {
+    "GameName": "Viticulture",
+    "Genre": "Worker Placement",
+    "Price": 60,
+    "DesignerId": 4
+  },
+  {
+    "GameName": "Charterstone",
+    "Genre": "Legacy Game",
+    "Price": 65,
+    "DesignerId": 4
+  },
+  {
+    "GameName": "Blood Rage",
+    "Genre": "Area Control",
+    "Price": 70,
+    "DesignerId": 5
+  },
+  {
+    "GameName": "Rising Sun",
+    "Genre": "Negotiation",
+    "Price": 80,
+    "DesignerId": 5
+  },
+  {
+    "GameName": "Ankh: Gods of Egypt",
+    "Genre": "Mythology",
+    "Price": 90,
+    "DesignerId": 5
+  },
+  {
+    "GameName": "Tigris & Euphrates",
+    "Genre": "Tile Placement",
+    "Price": 45,
+    "DesignerId": 2
+  },
+  {
+    "GameName": "Ra",
+    "Genre": "Auction",
+    "Price": 35,
+    "DesignerId": 2
+  },
+  {
+    "GameName": "Hallertau",
+    "Genre": "Strategy",
+    "Price": 70,
+    "DesignerId": 1
+  },
+  {
+    "GameName": "Oceans",
+    "Genre": "Strategy",
+    "Price": 55,
+    "DesignerId": 3
+  },
+  {
+    "GameName": "Terraforming Mars",
+    "Genre": "Engine Building",
+    "Price": 65,
+    "DesignerId": 4
+  },
+  {
+    "GameName": "Pandemic",
+    "Genre": "Cooperative",
+    "Price": 40,
+    "DesignerId": 5
+  }
+]
