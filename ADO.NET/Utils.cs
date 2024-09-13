@@ -4,7 +4,7 @@ namespace ADO.NET
 {
     internal class Utils
     {
-        public const string MASTER_CONNECTION_STRING = "Server=localhost\\SQLEXPRESS;Database=master;User Id=rich;Password=northcoders;Trust Server Certificate=True";
+        public const string MASTER_CONNECTION_STRING = "Server=localhost\\SQLEXPRESS;Database=master;User Id=<user_id>;Password=<password>;Trust Server Certificate=True";
         public const string CONNECTION_STRING = "Server=<server_name>;Database=MyBoardGameCafe;User Id=<user_id>;Password=<password>;Trust Server Certificate=True";
         public static void DropAndCreateDatabase()
         {
