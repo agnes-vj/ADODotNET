@@ -64,6 +64,26 @@ using (SqlConnection connection = new SqlConnection(Utils.CONNECTION_STRING))
     int rowsDeleted = deleteGame2Cmd.ExecuteNonQuery();
         Console.WriteLine(rowsDeleted + "rows deleted");
 
+
+
+        //SqlCommand getAllDesignersCommand = new("SELECT * FROM Designers;", connection);
+        //using (SqlDataReader reader = getAllDesignersCommand.ExecuteReader())
+        //{
+        //    while (reader.Read())
+        //    {
+        //        Console.Write(reader.GetValue(0) + "   ");
+        //        Console.Write(reader.GetValue(1) + "   ");
+        //        Console.Write(reader.GetValue(2) + "   ");
+        //    }
+        //}
+        SqlCommand insertDesignerRows; 
+        foreach(Designer designer in designers)
+        {
+            insertDesignerRows = new SqlCommand("INSERT INTO Designers VALUES (@Name1, @Name2)", connection, transaction);
+            insertDesignerRows.Parameters.AddWithValue("@Name1", designer.FirstName);
+            insertDesignerRows.Parameters.AddWithValue("@Name2", designer.LastName);
+            insertDesignerRows.ExecuteNonQuery();
+        }
         transaction.Commit();
     }
     catch(Exception ex)
